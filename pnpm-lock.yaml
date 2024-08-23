@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@types/nunjucks':
-    specifier: ^3.2.6
-    version: 3.2.6
   express:
     specifier: ^4.18.2
     version: 4.18.2
@@ -34,6 +31,9 @@ devDependencies:
   '@types/node':
     specifier: ^20.10.7
     version: 20.10.7
+  '@types/nunjucks':
+    specifier: ^3.2.6
+    version: 3.2.6
   '@typescript-eslint/eslint-plugin':
     specifier: ^6.18.1
     version: 6.18.1(@typescript-eslint/parser@6.18.1)(eslint@8.56.0)(typescript@5.3.3)
@@ -849,7 +849,7 @@ packages:
 
   /@types/nunjucks@3.2.6:
     resolution: {integrity: sha512-pHiGtf83na1nCzliuAdq8GowYiXvH5l931xZ0YEHaLMNFgynpEqx+IPStlu7UaDkehfvl01e4x/9Tpwhy7Ue3w==}
-    dev: false
+    dev: true
 
   /@types/qs@6.9.11:
     resolution: {integrity: sha512-oGk0gmhnEJK4Yyk+oI7EfXsLayXatCWPHary1MtcmbAifkobT9cM9yutG/hZKIseOU0MqbIwQ/u2nn/Gb+ltuQ==}
